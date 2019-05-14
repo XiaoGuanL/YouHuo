@@ -126,6 +126,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -137,6 +138,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\YouHuo_css\Hejunpeng.css" />
+    <Content Include="Content\YouHuo_css\Hexiaotian.css" />
+    <Content Include="Content\YouHuo_css\Jiangxin.css" />
+    <Content Include="Content\YouHuo_css\Linnan.css" />
+    <Content Include="Content\YouHuo_css\Zhengtianyue.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -154,6 +160,11 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Views\Youhuo_html\Hejunpeng.html" />
+    <Content Include="Views\Youhuo_html\Hexiaotian.html" />
+    <Content Include="Views\Youhuo_html\Jiangxin.html" />
+    <Content Include="Views\Youhuo_html\Linnan.html" />
+    <Content Include="Views\Youhuo_html\Zhengtianyue.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -172,6 +183,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
